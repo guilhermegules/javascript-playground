@@ -1,4 +1,4 @@
-##API
+## API
 
 API - Application Programming Interface é basicamente um conjunto de rotinas e padrões estabelecidos por uma aplicação, para que outras aplicações possam utilizar as funcionalidades desta aplicação.
 
@@ -6,7 +6,7 @@ API - Application Programming Interface é basicamente um conjunto de rotinas e 
 - Meio de campo entre as tecnologias.
 - Intermediador para troca de informações.
 
-##REST
+## REST
 Transferencia de dados, geralmente, usando o protocolo HTTP
 REST - Reprensational State Transfer (Transferencia de estado representativo)
 
@@ -26,11 +26,11 @@ Resourses seriam então, uma entidade, um objeto.
 
 - _Code on demand (optional)_: Dá a possibilidade da nossa aplicação pegar códigos, como o javascript, por exemplo, e executar no cliente.
 
-##RESTFUL
+## RESTFUL
 
 RESTful, é a aplicação dos padrões REST.
 
-##BOAS PRATICAS
+## BOAS PRATICAS
 
 Plural ou singular? Use um padrão.
 
@@ -38,14 +38,14 @@ Não utilizar barras no fim de um endpoint.
 
 Nunca deixar o cliente sem resposta;
 
-##VERBOS HTTP
+## VERBOS HTTP
 
 -GET: Receber dados de um resourse;
 -POST: Enviar dados para serem processados por um resourse;
 -PUT: Atualizar as informações de um resourse;
 -DELETE: Apaga um resourse.
 
-###STATUS DAS RESPOSTAS
+### STATUS DAS RESPOSTAS
 
 - 1xx: Informação
 - 2xx: Sucesso
