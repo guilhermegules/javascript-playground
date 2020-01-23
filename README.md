@@ -2,4 +2,5 @@
 
 Um repositório para depositar estruturas JS e aperfeiçoar meus conhecimentos sobre JS e afins.
 
--Primeiramente será feito o envio de array methods ES6
+- Primeiramente será feito o envio de array methods ES6
+- Adicionado um resumo sobre REST, RESTful, API, HTTP Verb, Boas práticas, etc.
