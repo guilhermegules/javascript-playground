@@ -1,4 +1,4 @@
-# Meu primeiro repositório
+## Meu primeiro repositório
 
 Um repositório para depositar estruturas JS e aperfeiçoar meus conhecimentos sobre JS e afins.
 
