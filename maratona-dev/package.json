@@ -1,7 +1,7 @@
 {
   "name": "maratona-dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "project developed in MaratonaDev",
   "main": "script.js",
   "scripts": {
     "start": "nodemon server.js"

@@ -1,6 +1,6 @@
 ## DOE application
 
-Application with html, css, javascript, node;
+Application with html, css, javascript, node, postgreSQL;
 
 developed in ["MaratonaDev"](https://rocketseat.com.br/maratonadev/inscricao/3.0) 
 
