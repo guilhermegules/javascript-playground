@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("./variables.css");
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button {
+  cursor: pointer;
+}
+
+.calculator {
+  width: 25em;
+  height: 40em;
+  margin-top: 1em;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display-container {
+  width: 100%;
+  height: 40%;
+  background-color: var(--display-background);
+  border-radius: 0.2em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 0;
+}
+
+.display {
+  width: 100%;
+  height: 50%;
+  font-size: 2em;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 25%;
+}
+
+.option-button {
+  width: 50%;
+  height: 100%;
+}
+
+.operation-button {
+  width: 25%;
+  height: 100%;
+}
+
+.button {
+  font-size: 2em;
+  background-color: var(--main-button-color);
+  border: 0;
+  color: var(--font-color);
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+  transition: 0.5s;
+}
+
+.equal-button {
+  transition: 0.5s;
+}
+
+.equal-button:hover {
+  transition: 0.5s;
+  background-color: var(--operator-button-color);
+}
+
+.option-button {
+  transition: 0.5s;
+}
+
+.option-button:hover {
+  background-color: var(--option-button-color);
+}
+
+.operator-button {
+  transition: 0.5s;
+}
+
+.operator-button:hover {
+  background-color: var(--operator-button-color);
+}
+
+footer {
+  margin-top: 1em;
+}
+
+footer h4 {
+  color: var(--font-color);
+}
+
+footer a {
+  color: var(--font-color);
+}
+
+footer a:hover {
+  color: var(--operator-button-color);
+}

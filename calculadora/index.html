@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/icon.svg" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <main class="calculator">
+      <div class="display-container">
+        <p class="display" id="operation"></p>
+        <p class="display" id="display"></p>
+      </div>
+      <div class="button-container">
+        <button class="option-button button" onclick="purge()">C</button>
+        <button class="option-button button" onclick="removeCharacter()">
+          <img src="./assets/delete.svg" alt="delete icon" />
+        </button>
+      </div>
+      <div class="button-container">
+        <button class="button operation-button" value="7" onclick="addValue(this.value)">7</button>
+        <button class="button operation-button" value="8" onclick="addValue(this.value)">8</button>
+        <button class="button operation-button" value="9" onclick="addValue(this.value)">9</button>
+        <button class="button operation-button operator-button" value="+" onclick="addValue(this.value)">+</button>
+      </div>
+      <div class="button-container">
+        <button class="button operation-button" value="4" onclick="addValue(this.value)">4</button>
+        <button class="button operation-button" value="5" onclick="addValue(this.value)">5</button>
+        <button class="button operation-button" value="6" onclick="addValue(this.value)">6</button>
+        <button class="button operation-button operator-button" value="-" onclick="addValue(this.value)">-</button>
+      </div>
+      <div class="button-container">
+        <button class="button operation-button" value="1" onclick="addValue(this.value)">1</button>
+        <button class="button operation-button" value="2" onclick="addValue(this.value)">2</button>
+        <button class="button operation-button" value="3" onclick="addValue(this.value)">3</button>
+        <button class="button operation-button operator-button" value="*" onclick="addValue(this.value)">×</button>
+      </div>
+      <div class="button-container">
+        <button class="button operation-button" value="0" onclick="addValue(this.value)">0</button>
+        <button class="button operation-button" value="." onclick="addValue(this.value)">.</button>
+        <button class="button operation-button equal-button" onclick="calculate()">=</button>
+        <button class="button operation-button operator-button" value="/" onclick="addValue(this.value)">÷</button>
+      </div>
+    </main>
+    <footer>
+      <h4>made by <a href="https://github.com/guilhermegules">me</a> 👽</h4>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
