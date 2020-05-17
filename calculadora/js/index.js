@@ -43,6 +43,11 @@ function removeCharacter() {
     0,
     operations.innerHTML.length - 1
   );
+  const display = document.getElementById("display");
+  display.innerHTML = display.innerHTML.substr(
+    0,
+    display.innerHTML.length - 1
+  );
 }
 
 function purge() {
