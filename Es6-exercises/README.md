@@ -6,6 +6,7 @@
 - Default arguments;
 - Enhanced object literals;
 - Spread and rest operators;
+- Symbols and iterators;
 
 ### Run each exercise:
 1. `npm run spread-rest`;
