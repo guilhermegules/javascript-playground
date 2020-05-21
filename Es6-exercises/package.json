@@ -1,0 +1,18 @@
+{
+  "name": "es6-testing",
+  "version": "1.0.0",
+  "description": "just simple exercises for training Es6",
+  "main": "arrow-functions.js",
+  "scripts": {
+    "spread-rest": "node src/spread-rest.js",
+    "object-literals": "node src/enhanced-object-literals.js",
+    "default-args": "node src/default-arguments.js",
+    "symbols-iterators": "node src/symbols-iterators.js"
+  },
+  "keywords": [
+    "Es6",
+    "JavaScript"
+  ],
+  "author": "Guilherme Gules Moreira",
+  "license": "ISC"
+}
