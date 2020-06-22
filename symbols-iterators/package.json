@@ -1,0 +1,12 @@
+{
+  "name": "symbols-iterators",
+  "version": "1.0.0",
+  "description": "Some symbols and iterators exercises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/symbols-iterators.js"
+  },
+  "keywords": [],
+  "author": "Guilherme Gules Moreira",
+  "license": "ISC"
+}
