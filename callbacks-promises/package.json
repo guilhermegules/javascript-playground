@@ -1,0 +1,12 @@
+{
+  "name": "callbacks-promises",
+  "version": "1.0.0",
+  "description": "Promises and Callback",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["Node", "JavaScript", "Promises", "Callback"],
+  "author": "Guilherme Gules Moreira",
+  "license": "ISC"
+}
