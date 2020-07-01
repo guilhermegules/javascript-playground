@@ -1,0 +1,19 @@
+{
+  "name": "fetch-async-await",
+  "version": "1.0.0",
+  "description": "Fetch exercises",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "Fetch",
+    "Async",
+    "Await"
+  ],
+  "author": "Guilherme Gules Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
