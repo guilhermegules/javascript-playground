@@ -3,7 +3,7 @@
 Fetch exercises using async/await and eventEmitter
 
 ### Run 
-- `npm start`
+- install all dependencies `npm install` then `npm start`
 
 ### Fetch
 Its a simple way to get and send request
