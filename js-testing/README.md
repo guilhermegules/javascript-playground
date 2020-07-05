@@ -13,7 +13,7 @@ Repo for train test with JavaScript
 [Chai](https://www.chaijs.com/) is a BDD/TDD assertion lib from node and browser
 
 ### Sinon 
-[Sinon](https://sinonjs.org/)Standalone test spies, stubs and mocks for JavaScript. Works with any unit testing framework.
+[Sinon](https://sinonjs.org/) Standalone test spies, stubs and mocks for JavaScript. Works with any unit testing framework.
 
 ### TDD 
 In this exercise TDD was used, so i follow this cicle (create test -> write a function -> pass test -> refactor)
