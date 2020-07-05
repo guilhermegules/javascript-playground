@@ -14,3 +14,29 @@ const testing = () => console.trace("Hello");
 
 testing();
 testing();
+
+// Console
+console.log("TEXT");
+console.warn("WARNING");
+console.error("ERROR");
+
+// Console group
+console.group("Group");
+console.log("Item 1");
+console.log("Item 2");
+console.groupEnd("Group");
+
+// Console time
+console.time("Log time");
+setTimeout(() => {
+  console.timeEnd("Log time");
+}, 500);
+
+// Console table
+console.table(["Guilherme Gules", "Coding"]);
+
+// Console assert
+console.assert(1 === 0, "Ops");
+
+// Console styled
+console.log("%c styled log", "color: blue; font-size: 20px");
