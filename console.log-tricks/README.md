@@ -12,3 +12,4 @@ Some types of `console.log` for help to debug
 - In Chrome devtools we can get all the event listeners on a element `getEventListener(element)`
 - For use Chrome to edit our files, we can click with the right button in `index.html` then select the option `Map to Network Resource` and select the `index.html`, with this we can use Devtools like our IDE or code editor
 - To remove the map network resource from Devtools, only click with the right button on `index.html` and select the option `Remove Networking Mapping` then remove the folder `devTools` in `source` tab, `right click` + `Remove folder from workspace`
+- **Pretty print:** Open the source code in the Source tab and click on the `{}` icon, by clicking on `{}` DevTools identified the code for us! Now we can leave the performance optimized and still be able to read it in the browser. 
