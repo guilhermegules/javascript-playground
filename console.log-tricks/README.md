@@ -10,3 +10,5 @@ Some types of `console.log` for help to debug
 - In Chrome devtools we can get the a object on our project with `$('your-element')`, obs: this command is overwrited if you have jquery in our project 
 - In Chrome devtools we can get the all objects on our project with `$$('your-element')`
 - In Chrome devtools we can get all the event listeners on a element `getEventListener(element)`
+- For use Chrome to edit our files, we can click with the right button in `index.html` then select the option `Map to Network Resource` and select the `index.html`, with this we can use Devtools like our IDE or code editor
+- To remove the map network resource from Devtools, only click with the right button on `index.html` and select the option `Remove Networking Mapping` then remove the folder `devTools` in `source` tab, `right click` + `Remove folder from workspace`
