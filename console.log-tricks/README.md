@@ -14,7 +14,7 @@ Some types of `console.log` for help to debug
 - To remove the map network resource from Devtools, only click with the right button on `index.html` and select the option `Remove Networking Mapping` then remove the folder `devTools` in `source` tab, `right click` + `Remove folder from workspace`
 - **Pretty print:** Open the source code in the Source tab and click on the `{}` icon, by clicking on `{}` DevTools identified the code for us! Now we can leave the performance optimized and still be able to read it in the browser
 - In Chrome devtools we can add a frame of a mobile device
-  - ![](./images/show-device-frame.png)  
+  - ![](../images/show-device-frame.png)  
 
 ### Memory/Profiles tab
 
