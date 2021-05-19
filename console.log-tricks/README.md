@@ -13,3 +13,11 @@ Some types of `console.log` for help to debug
 - For use Chrome to edit our files, we can click with the right button in `index.html` then select the option `Map to Network Resource` and select the `index.html`, with this we can use Devtools like our IDE or code editor
 - To remove the map network resource from Devtools, only click with the right button on `index.html` and select the option `Remove Networking Mapping` then remove the folder `devTools` in `source` tab, `right click` + `Remove folder from workspace`
 - **Pretty print:** Open the source code in the Source tab and click on the `{}` icon, by clicking on `{}` DevTools identified the code for us! Now we can leave the performance optimized and still be able to read it in the browser. 
+
+### Memory/Profiles tab
+
+In this tab we can check, the performance of your application, checking if our js scripts are fine and not too heavy on the user browser
+
+### Performance tab
+
+In this tab pressing `ctrl + e` we can record all the animations and check all the time it took to finish
