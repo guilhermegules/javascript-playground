@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Intersection Observer</title>
+  </head>
+  <body>
+    <h1 class="hidden">Hello!</h1>
+
+    <section class="hidden">
+      <h2>Hey, do you know intersection observer?</h2>
+      <p>No? You should! It's awesome</p>
+    </section>
+
+    <section class="hidden">
+      <h2>There others observers too, but the intersection one, can help us</h2>
+      <p>We can create awesome scroll behavior</p>
+    </section>
+
+    <section>
+      <div class="avatars">
+        <div class="avatar hidden">
+          <img
+            src="https://avatars.dicebear.com/api/open-peeps/1222.svg"
+            alt="avatar 1"
+          />
+        </div>
+        <div style="--avatar-order: 2" class="avatar hidden">
+          <img
+            src="https://avatars.dicebear.com/api/open-peeps/1331.svg"
+            alt="avatar 2"
+          />
+        </div>
+        <div style="--avatar-order: 3" class="avatar hidden">
+          <img
+            src="https://avatars.dicebear.com/api/open-peeps/3341.svg"
+            alt="avatar 3"
+          />
+        </div>
+        <div style="--avatar-order: 4" class="avatar hidden">
+          <img
+            src="https://avatars.dicebear.com/api/open-peeps/223123.svg"
+            alt="avatar 4"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
